@@ -5,8 +5,10 @@ import Reaction from './Reaction';
 
 
 function ButtonItem(){
-    
-    return <button onClick ={<Reaction></Reaction>}> I'm a Button</button>
+    const clickHandler = () =>{
+        Reaction();
+    }
+    return <button onClick ={clickHandler}> I'm a Button</button>
 }
 
 export default ButtonItem; 
