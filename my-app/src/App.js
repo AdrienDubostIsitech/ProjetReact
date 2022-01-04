@@ -4,6 +4,7 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import RotateItem from './components/Rotation'; 
 import ButtonItem from './components/Button'; 
+import Formulaire from './components/Formulaire'; 
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
       <h2> Let's Get Started </h2>
       <RotateItem></RotateItem>
       <ButtonItem></ButtonItem>
+      <Formulaire></Formulaire>
+      
     </div>
 
     
